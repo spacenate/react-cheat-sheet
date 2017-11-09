@@ -129,14 +129,14 @@ this.forceUpdate();`,
   {
     name: "defaultProps",
     example: `class Greeting extends React.Component {
-      render() {
-        return <h1>Hi {this.props.name}</h1>
-      }
-    }
-    
-    CustomButton.defaultProps = {
-      name: 'guest'
-    };`,
+  render() {
+    return <h1>Hi {this.props.name}</h1>
+  }
+}
+
+Greeting.defaultProps = {
+  name: 'guest'
+};`,
     reference: "https://reactjs.org/docs/react-component.html#defaultprops",
   },
 ];
